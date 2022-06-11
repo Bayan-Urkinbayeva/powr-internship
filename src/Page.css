@@ -1,0 +1,64 @@
+.App {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.box {
+  display: flex;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+   
+}
+.input{
+ opacity: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-color: transparent;
+  background-color: transparent;
+}
+.button {
+  margin: 10px;
+  width: 180px;
+  height: 60px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: rgb(229, 231, 236);
+}
+.buttons {
+  margin-top: -10px;
+  margin-left: -38px;
+  position: absolute;
+  width: 300px;
+  height: 70px;
+  background-color: transparent;
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.btns:hover .buttons {
+  display: flex;
+}
+.build {
+  display: flex;
+  margin: 10px;
+}
+.create-json {
+  display: flex;
+}
