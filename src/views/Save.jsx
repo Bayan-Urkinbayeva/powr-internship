@@ -14,7 +14,7 @@ const Page = () => {
     setRerender(!rerender);
   }
   const save = () => {
-    axios.post('http://127.0.0.1:8000/save',list)
+    axios.post('https://tz-powr.herokuapp.com/save',list)
     .then((res) => navigate(`/${res.data.id}`))
   }
   return (

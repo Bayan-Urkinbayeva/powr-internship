@@ -16,7 +16,7 @@ useEffect(() => {
 },[])
 
 const getSavedJson =  () => {
- axios.get(`http://localhost:8000/${id}`)
+ axios.get(`https://tz-powr.herokuapp.com/${id}`)
   .then((res) => {
     setList(res.data)
     setRerender(!rerender);
